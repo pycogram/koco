@@ -332,11 +332,11 @@ footer p{
 }
 @media screen and (max-width: 420px){
   h1, h2{
-    font-size: 22px;
+    font-size: 28px;
     padding: 0 0.2rem;
   }
   h4{
-    font-size: 20px;
+    font-size: 24px;
   }
   .socialLink{
     gap: 10px;

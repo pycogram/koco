@@ -75,7 +75,7 @@ export function Page({objIconPro, objImgPro, objGifPro}) {
                     <h4>Everyone loves $KOCO. $KOCO is cute af.</h4>
                     <div className="memePic">
                         <span>
-                            <img src={gif1} alt="koco first gif"></img>
+                            <img src={gif3} alt="koco first gif"></img>
                         </span>
                         <span>
                             <img src={gif2} alt="koco second gif"></img>

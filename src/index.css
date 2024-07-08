@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Schoolbell:wght@300;400;500;600;700&display=swap');
 
 :root{
   /* FONT FAMILY */
-  --fontFamily-Rubik: 'Rubik Wet Paint', system-ui;
-  --fontFamily-QuickSand: 'Open Sans', sans-serif;
+  --fontFamily-Rubik: "Rubik Bubbles", system-ui;
+  --fontFamily-QuickSand: "Schoolbell", cursive;
 
   /* BORDER COLOUR */
   --border-blue-jeans: hsla(202, 100%, 50%, 1);
@@ -55,7 +55,7 @@ img, span, button{
 }
 h1, h2, h3, h4, h5, h6{
   font-family: var(--fontFamily-Rubik);
-  color: var(--bar-color-light);
+  color: var(--text1-color-dark-grey);
 }
 h1, h2{
   font-size: 38px;
@@ -64,17 +64,17 @@ h1, h2{
   text-shadow: var(--text-shadow);
 }
 h4{
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   text-shadow: var(--text-shadow);
   font-family: var(--fontFamily-QuickSand);
 
 }
 button{
-  background: var(--alert-color-red);
+  background: #219ebc;
   color: var(--bar-color-light);
   border: 4px solid var(--bar-color-light);
-  padding: 2px 20px;
+  padding: 0.6rem 2rem;
   border-radius: 10px;
   text-transform: uppercase;
   transition: var(--tran-06);
@@ -99,6 +99,7 @@ span{
   align-items: center;
   border: 5px solid grey;
   transition: var(--tran-06);
+  box-shadow: var(--box-shadow);
 }
 span:hover{
   border-color: var(--bar-color-light);
@@ -121,11 +122,8 @@ html::-webkit-scrollbar-thumb:hover{
   background: #555;
 }
 body{
-  background-image: url(./gif/gif3.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100%;
+  background: #faedcd;
 }
 .socialLink{
   display: flex;
@@ -179,7 +177,7 @@ body{
   justify-content: center;
 }
 .caSection div{
-  border: 1px solid var(--bar-color-light);
+  border: 1px solid var(--non-color-dark);
   padding: 0.1rem 1rem;
   border-radius: 10px;
   position: relative;
@@ -194,7 +192,7 @@ body{
 }
 .aboutSection{
   margin: 3rem 0 1rem 0;
-  background: rgb(80, 79, 79);
+  background: #eae2b7;
   padding: 1.8rem 1rem;
   border-radius: 30px;
 }
@@ -283,7 +281,6 @@ footer p{
   }
   .logoText{
     margin: 0.6rem 0;
-    background: rgb(80, 79, 79);
   }
   .logoText div{
     margin: 1.5rem 0 0.5rem 0;
@@ -319,14 +316,11 @@ footer p{
     font-family: var(--fontFamily-QuickSand);
   }
   .memeSection .memePic{
-    display: grid;
-    position: relative;
-    justify-items: center;
-    align-items: center;
+    width: 98%;
     gap: 5px;
   }
   .memePic span img{
-    width: 300px;
+    width: fit-content;
     height: 300px;
   }
   footer{
